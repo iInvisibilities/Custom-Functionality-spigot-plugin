@@ -1,6 +1,6 @@
 Actions:
  * SEND_MESSAGE - Send a message to the player
- * TELEPORT - Teleport the player to another place or another Custom(block, entity)
+ * TELEPORT - Teleport the player to another place or an offset of x y z from the player's feet location
  * VELOCITY - Change the velocity of the player allowing you to retract or push the player for example
  * PLAY_EFFECT - Play a particle that only player can see with an offset of x y z from the player's feet location
  * PLAY_SOUND - Play a sound that only the player can hear with an offset of x y z from the player's feet location
