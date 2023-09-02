@@ -1,0 +1,78 @@
+ACTIONS:
+  SEND_MESSAGE:
+    // TYPE: ACTION_BAR
+    // CONTENT: "message"
+    // --------------------
+    // TYPE: CHAT
+    // CONTENT: ["message example1", "message example 2", ...]
+    // --------------------
+    // TYPE: TITLE
+    // CONTENT:
+    //   TITLE: "title"
+    //   SUBTITLE: "subtitle"
+    //   FADE_IN: 1
+    //   STAY: 1
+    //   FADE_OUT: 1
+  PLAY_PARTICLE:
+    // TYPE: HEART
+    // COUNT: 1
+    // OFFSET: [0, 1, 0]
+  PLAY_SOUND:
+    // TYPE: BLOCK_ANVIL_LAND
+    // VOLUME: 1
+    // PITCH: 1
+    // OFFSET: [0, 0, 0]
+  CHANGE_DATA:
+    // FLYING: false
+    // ALLOW_FLIGHT: false
+    // FLYING_SPEED: 0
+    // WALKING_SPEED: 0
+    // HEALTH: 0
+    // HEALTH_CAP: 0
+    // IS_HEALTH_SCALED: false
+    // INVISIBLE: false
+    // INVULNERABLE: false
+    // NO_DAMAGE_TICKS: false
+    // WEATHER: CLEAR // CLEAR/DOWNFALL
+    // DISPLAY_NAME: "display name"
+    // EXP: 0
+    // EXP_COOLDOWN: 0
+    // LEVEL: 0
+    // PLAYER_LIST_HEADER_MESSAGE: "this is tab header"
+    // PLAYER_LIST_FOOTER_MESSAGE: "this is tab footer"
+    // PLAYER_LIST_NAME: "this is you in tab"
+    // PLAYER_TIME: 0
+    // RESOURCEPACK: "pack"
+    // FIRE_TICKS: 0
+    // FREEZE_TICKS: 0
+    // LIVED_TICKS: 0
+    // NO_ACTION_TICKS: 0
+    // MAXIMUM_NO_DAMAGE_TICKS: 0
+    // SPRINTING: false
+    // SNEACKING: false
+    // IGNORE_SLEEP: false
+    // TOTAL_EXPERIENCE: 0
+    // ABSORPTION_AMOUNT: 0
+    // GRAVITY: false
+    // GLOWING: false
+    // PORTAL_COOLDOWN: 0
+    // ADD_ATTACHMENT:
+    //   CONTENT: "attachment_content_example"
+    //   VALUE: true // true/false
+    //   DELAY_BEFORE_REMOVAL: 100 // delay in ticks before it's removed (set to -1 for infinity)
+  TELEPORT: // [1, 0, 1]
+  VELOCITY: // [0, 1, 0]
+  PLAY_NATURAL_OCCURRENCE:
+    // TYPE: EXPLOSION // EXPLOSION/LIGHTNING_STRIKE
+    // OFFSET: [0, 3, 0]
+    // POWER: 3
+    // BREAK_BLOCKS: false
+    // SET_FIRE: false
+    // --------------------
+    // TYPE: LIGHTNING_STRIKE // EXPLOSION/LIGHTNING_STRIKE
+    // OFFSET: [0, 3, 0]
+    // IS_EFFECT: true
+  SPAWN:
+    TYPE: BAT
+    OFFSET: [0, 1, 0]
+    RANDOMIZE_DATA: true
