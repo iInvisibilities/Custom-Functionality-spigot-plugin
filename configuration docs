@@ -1,0 +1,10 @@
+Actions:
+ * SEND_MESSAGE - Send a message to the player
+ * TELEPORT - Teleport the player to another place or another Custom(block, entity)
+ * VELOCITY - Change the velocity of the player allowing you to retract or push the player for example
+ * PLAY_EFFECT - Play a particle that only player can see with an offset of x y z from the player's feet location
+ * PLAY_SOUND - Play a sound that only the player can hear with an offset of x y z from the player's feet location
+ * PLAY_CUSTOM - Play a Custom(effect) that only the player can see
+ * SPAWN - Spawn an entity which can be an item by the way, or even a Custom(entity, items) at an offset of x y z from the player's feet location
+ * PLAY_NATURAL_OCCURRENCE - Play an explosion or spawn a lightning strike at an offset of x y z from the player's feet location
+ * CHANGE_DATA - Change the player's data from his health to even his flying state, you can change almost everything about the player!
